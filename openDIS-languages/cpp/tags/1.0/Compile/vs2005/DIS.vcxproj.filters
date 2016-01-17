@@ -1,0 +1,891 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{d4c6f7c5-d45f-4b6d-824d-900437bbec92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\DIS">
+      <UniqueIdentifier>{e4243e96-2b23-4467-a863-f3d7f8451dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CppUtils">
+      <UniqueIdentifier>{f82b9eca-4a7a-4df0-a164-7e60813b3b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CppUtils\DIS">
+      <UniqueIdentifier>{f1396f1d-70c6-486d-9d40-1a7425007527}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\cpp\DIS\AcknowledgePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\AcknowledgeReliablePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\AcousticBeamData.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\AcousticBeamFundamentalParameter.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\AcousticEmitter.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\AcousticEmitterSystem.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\AcousticEmitterSystemData.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ActionRequestPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ActionRequestReliablePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ActionResponsePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ActionResponseReliablePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\AggregateID.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\AggregateMarking.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\AggregateStatePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\AggregateType.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\AngularVelocityVector.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\AntennaLocation.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ApaData.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ArealObjectStatePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ArticulationParameter.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\BeamAntennaPattern.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\BeamData.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\BurstDescriptor.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ClockTime.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\CollisionElasticPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\CollisionPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\CommentPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\CommentReliablePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\CreateEntityPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\CreateEntityReliablePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\DataPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\DataQueryPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\DataQueryReliablePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\DataReliablePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\DeadReckoningParameter.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\DesignatorPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\DetonationPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\DistributedEmissionsFamilyPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\EightByteChunk.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ElectronicEmissionBeamData.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ElectronicEmissionsPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ElectronicEmissionSystemData.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\EmitterSystem.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\EntityID.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\EntityInformationFamilyPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\EntityManagementFamilyPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\EntityStatePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\EntityStateUpdatePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\EntityType.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\Environment.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\EnvironmentalProcessPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\EventID.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\EventReportPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\EventReportReliablePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\FastEntityStatePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\FirePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\FixedDatum.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\FourByteChunk.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\FundamentalParameterData.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\FundamentalParameterDataIff.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\GridAxisRecord.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\GridAxisRecordRepresentation0.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\GridAxisRecordRepresentation1.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\GridAxisRecordRepresentation2.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\GriddedDataPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\IffAtcNavAidsLayer1Pdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\IffAtcNavAidsLayer2Pdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\IffFundamentalData.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\IntercomCommunicationsParameters.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\IntercomControlPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\IntercomSignalPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\IsGroupOfPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\IsPartOfPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\LayerHeader.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\LinearObjectStatePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\LinearSegmentParameter.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\LogisticsFamilyPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\LogisticsPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\Marking.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\MinefieldDataPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\MinefieldFamilyPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\MinefieldPduFamily.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\MinefieldQueryPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\MinefieldResponseNackPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\MinefieldStatePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ModulationType.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\msLibMacro.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\NamedLocation.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ObjectType.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\OneByteChunk.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\Orientation.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\Pdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\Point.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\PointObjectStatePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\PropulsionSystemData.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\RadioCommunicationsFamilyPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\RadioEntityType.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ReceiverPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\RecordQueryReliablePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\RecordSet.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\Relationship.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\RemoveEntityPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\RemoveEntityReliablePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\RepairCompletePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\RepairResponsePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ResupplyCancelPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ResupplyOfferPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ResupplyReceivedPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\SeesPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ServiceRequestPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\SetDataPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\SetDataReliablePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\SetRecordReliablePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\ShaftRPMs.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\SignalPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\SimulationAddress.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\SimulationManagementFamilyPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\SimulationManagementWithReliabilityFamilyPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\SixByteChunk.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\SphericalHarmonicAntennaPattern.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\StartResumePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\StartResumeReliablePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\StopFreezePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\StopFreezeReliablePdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\SupplyQuantity.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\SyntheticEnvironmentFamilyPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\SystemID.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\TrackJamTarget.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\TransferControlRequestPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\TransmitterPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\TwoByteChunk.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\UaPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\VariableDatum.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\Vector3Double.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\Vector3Float.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\VectoringNozzleSystemData.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\DIS\WarfareFamilyPdu.h">
+      <Filter>cpp\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CppUtils\DIS\Conversion.h">
+      <Filter>CppUtils\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CppUtils\DIS\DataStream.h">
+      <Filter>CppUtils\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CppUtils\DIS\Endian.h">
+      <Filter>CppUtils\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CppUtils\DIS\IBufferProcessor.h">
+      <Filter>CppUtils\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CppUtils\DIS\IncomingMessage.h">
+      <Filter>CppUtils\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CppUtils\DIS\IPacketProcessor.h">
+      <Filter>CppUtils\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CppUtils\DIS\Masks.h">
+      <Filter>CppUtils\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CppUtils\DIS\PacketFactory.h">
+      <Filter>CppUtils\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CppUtils\DIS\PDUBank.h">
+      <Filter>CppUtils\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CppUtils\DIS\PDUType.h">
+      <Filter>CppUtils\DIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CppUtils\DIS\StreamUtils.h">
+      <Filter>CppUtils\DIS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\cpp\DIS\AcknowledgePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\AcknowledgeReliablePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\AcousticBeamData.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\AcousticBeamFundamentalParameter.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\AcousticEmitter.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\AcousticEmitterSystem.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\AcousticEmitterSystemData.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ActionRequestPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ActionRequestReliablePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ActionResponsePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ActionResponseReliablePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\AggregateID.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\AggregateMarking.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\AggregateStatePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\AggregateType.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\AngularVelocityVector.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\AntennaLocation.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ApaData.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ArealObjectStatePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ArticulationParameter.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\BeamAntennaPattern.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\BeamData.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\BurstDescriptor.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ClockTime.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\CollisionElasticPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\CollisionPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\CommentPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\CommentReliablePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\CreateEntityPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\CreateEntityReliablePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\DataPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\DataQueryPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\DataQueryReliablePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\DataReliablePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\DeadReckoningParameter.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\DesignatorPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\DetonationPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\DistributedEmissionsFamilyPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\EightByteChunk.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ElectronicEmissionBeamData.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ElectronicEmissionsPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ElectronicEmissionSystemData.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\EmitterSystem.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\EntityID.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\EntityInformationFamilyPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\EntityManagementFamilyPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\EntityStatePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\EntityStateUpdatePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\EntityType.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\Environment.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\EnvironmentalProcessPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\EventID.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\EventReportPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\EventReportReliablePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\FastEntityStatePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\FirePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\FixedDatum.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\FourByteChunk.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\FundamentalParameterData.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\FundamentalParameterDataIff.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\GridAxisRecord.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\GridAxisRecordRepresentation0.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\GridAxisRecordRepresentation1.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\GridAxisRecordRepresentation2.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\GriddedDataPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\IffAtcNavAidsLayer1Pdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\IffAtcNavAidsLayer2Pdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\IffFundamentalData.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\IntercomCommunicationsParameters.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\IntercomControlPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\IntercomSignalPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\IsGroupOfPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\IsPartOfPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\LayerHeader.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\LinearObjectStatePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\LinearSegmentParameter.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\LogisticsFamilyPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\LogisticsPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\Marking.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\MinefieldDataPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\MinefieldFamilyPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\MinefieldPduFamily.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\MinefieldQueryPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\MinefieldResponseNackPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\MinefieldStatePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ModulationType.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\NamedLocation.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ObjectType.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\OneByteChunk.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\Orientation.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\Pdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\Point.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\PointObjectStatePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\PropulsionSystemData.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\RadioCommunicationsFamilyPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\RadioEntityType.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ReceiverPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\RecordQueryReliablePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\RecordSet.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\Relationship.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\RemoveEntityPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\RemoveEntityReliablePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\RepairCompletePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\RepairResponsePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ResupplyCancelPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ResupplyOfferPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ResupplyReceivedPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\SeesPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ServiceRequestPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\SetDataPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\SetDataReliablePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\SetRecordReliablePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\ShaftRPMs.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\SignalPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\SimulationAddress.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\SimulationManagementFamilyPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\SimulationManagementWithReliabilityFamilyPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\SixByteChunk.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\SphericalHarmonicAntennaPattern.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\StartResumePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\StartResumeReliablePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\StopFreezePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\StopFreezeReliablePdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\SupplyQuantity.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\SyntheticEnvironmentFamilyPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\SystemID.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\TrackJamTarget.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\TransferControlRequestPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\TransmitterPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\TwoByteChunk.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\UaPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\VariableDatum.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\Vector3Double.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\Vector3Float.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\VectoringNozzleSystemData.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\DIS\WarfareFamilyPdu.cpp">
+      <Filter>cpp\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CppUtils\DIS\Conversion.cpp">
+      <Filter>CppUtils\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CppUtils\DIS\DataStream.cpp">
+      <Filter>CppUtils\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CppUtils\DIS\IncomingMessage.cpp">
+      <Filter>CppUtils\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CppUtils\DIS\PacketFactory.cpp">
+      <Filter>CppUtils\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CppUtils\DIS\PDUBank.cpp">
+      <Filter>CppUtils\DIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CppUtils\DIS\StreamUtils.cpp">
+      <Filter>CppUtils\DIS</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

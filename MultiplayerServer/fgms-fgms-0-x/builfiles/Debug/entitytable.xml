@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<entity>
+		<name>Bremen Class</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>2</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-OliverPerry.xml</model>
+	</entity>
+	<entity>
+		<name>F207 Bremen</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>2</subcategory>
+			<specific>1</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-OliverPerry.xml</model>
+	</entity>
+	<entity>
+		<name>F208 Niedersachsen</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>2</subcategory>
+			<specific>2</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-OliverPerry.xml</model>
+	</entity>
+	<entity>
+		<name>F209 Rheinland-Pfalz</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>2</subcategory>
+			<specific>3</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-OliverPerry.xml</model>
+	</entity>
+	<entity>
+		<name>F210 Emden</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>2</subcategory>
+			<specific>4</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-OliverPerry.xml</model>
+	</entity>
+	<entity>
+		<name>F211 Köln</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>2</subcategory>
+			<specific>5</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-OliverPerry.xml</model>
+	</entity>
+	<entity>
+		<name>F212 Karlsruhe</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>2</subcategory>
+			<specific>6</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-OliverPerry.xml</model>
+	</entity>
+	<entity>
+		<name>F213 Augsburg</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>2</subcategory>
+			<specific>7</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-OliverPerry.xml</model>
+	</entity>
+	<entity>
+		<name>F214 Lübeck</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>2</subcategory>
+			<specific>8</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-OliverPerry.xml</model>
+	</entity>
+	<entity>
+		<name>Brandeburg Class</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>1</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-Normandy.xml</model>
+	</entity>
+	<entity>
+		<name>F215 Brandenburg</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>1</subcategory>
+			<specific>1</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-Normandy.xml</model>
+	</entity>
+	<entity>
+		<name>F216 Schleswig-Holstein</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>1</subcategory>
+			<specific>2</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-Normandy.xml</model>
+	</entity>
+	<entity>
+		<name>F217 Bayern</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>1</subcategory>
+			<specific>3</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-Normandy.xml</model>
+	</entity>
+	<entity>
+		<name>F218 Mecklenburg-Vorpommern</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>1</subcategory>
+			<specific>4</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-Normandy.xml</model>
+	</entity>
+	<entity>
+		<name>Sachsen Class</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>3</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-Normandy.xml</model>
+	</entity>
+	<entity>
+		<name>F219 Sachsen</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>3</subcategory>
+			<specific>1</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-Normandy.xml</model>
+	</entity>
+	<entity>
+		<name>F220 Hamburg</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>3</subcategory>
+			<specific>2</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-Normandy.xml</model>
+	</entity>
+	<entity>
+		<name>F221 Hessen</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>3</subcategory>
+			<specific>3</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-Normandy.xml</model>
+	</entity>
+	<entity>
+		<name>Braunschweig Class</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>50</category>
+			<subcategory>2</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/K130/Models/Braunschweig.xml</model>
+	</entity>
+	<entity>
+		<name>F260 Braunschweig</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>50</category>
+			<subcategory>2</subcategory>
+			<specific>1</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/K130/Models/Braunschweig.xml</model>
+	</entity>
+	<entity>
+		<name>F261 Magdeburg</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>50</category>
+			<subcategory>2</subcategory>
+			<specific>2</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/K130/Models/Braunschweig.xml</model>
+	</entity>
+	<entity>
+		<name>F262 Erfurt</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>50</category>
+			<subcategory>2</subcategory>
+			<specific>3</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/K130/Models/Braunschweig.xml</model>
+	</entity>
+	<entity>
+		<name>F263 Oldenburg</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>50</category>
+			<subcategory>2</subcategory>
+			<specific>4</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/K130/Models/Braunschweig.xml</model>
+	</entity>
+	<entity>
+		<name>F264 Ludwigshafen</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>50</category>
+			<subcategory>2</subcategory>
+			<specific>5</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/K130/Models/Braunschweig.xml</model>
+	</entity>
+	<entity>
+		<name>Elbe Class</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>16</category>
+			<subcategory>1</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-SanAntonio.xml</model>
+	</entity>
+	<entity>
+		<name>A511 Elbe</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>16</category>
+			<subcategory>1</subcategory>
+			<specific>1</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-SanAntonio.xml</model>
+	</entity>
+	<entity>
+		<name>A512 Mosel</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>16</category>
+			<subcategory>1</subcategory>
+			<specific>2</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-SanAntonio.xml</model>
+	</entity>
+	<entity>
+		<name>A513 Rhein</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>16</category>
+			<subcategory>1</subcategory>
+			<specific>3</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-SanAntonio.xml</model>
+	</entity>
+	<entity>
+		<name>A514 Werra</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>16</category>
+			<subcategory>1</subcategory>
+			<specific>4</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-SanAntonio.xml</model>
+	</entity>
+	<entity>
+		<name>A515 Main</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>16</category>
+			<subcategory>1</subcategory>
+			<specific>5</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-SanAntonio.xml</model>
+	</entity>
+	<entity>
+		<name>A516 Donau</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>16</category>
+			<subcategory>1</subcategory>
+			<specific>6</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-SanAntonio.xml</model>
+	</entity>
+	<entity>
+		<name>Berlin Class</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>16</category>
+			<subcategory>16</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-SanAntonio.xml</model>
+	</entity>
+	<entity>
+		<name>A1411 Berlin</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>16</category>
+			<subcategory>16</subcategory>
+			<specific>1</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-SanAntonio.xml</model>
+	</entity>
+	<entity>
+		<name>A1412 Frankfurt</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>16</category>
+			<subcategory>16</subcategory>
+			<specific>2</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-SanAntonio.xml</model>
+	</entity>
+	<entity>
+		<name>A1413 Bonn</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>16</category>
+			<subcategory>16</subcategory>
+			<specific>3</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/U.S. NAVY H.Q/Models/USS-SanAntonio.xml</model>
+	</entity>
+	<entity>
+		<name>Container Vessel</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>225</country>
+			<category>61</category>
+			<subcategory>1</subcategory>
+			<specific>2</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Models/Maritime/Civilian/ContainerShip.xml</model>
+	</entity>
+	<entity>
+		<name>Container Vessel</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>45</country>
+			<category>61</category>
+			<subcategory>1</subcategory>
+			<specific>3</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Models/Maritime/Civilian/Tanker_sailing.xml</model>
+	</entity>
+	<entity>
+		<name>Ship</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>0</country>
+			<category>0</category>
+			<subcategory>0</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Models/Maritime/Civilian/SimpleFreighter.ac</model>
+	</entity>
+	<entity>
+		<name>P-3C Orion</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>2</domain>
+			<country>225</country>
+			<category>5</category>
+			<subcategory>1</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Models/Aircraft/atlantique2.xml</model>
+	</entity>
+	<entity>
+		<name>Mk-88 Sea Lynx</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>2</domain>
+			<country>78</country>
+			<category>22</category>
+			<subcategory>1</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/Lynx-WG13/Models/Lynx-WG13.xml</model>
+	</entity>
+	<entity>
+		<name>Eurofighter</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>2</domain>
+			<country>224</country>
+			<category>1</category>
+			<subcategory>3</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/eurofighter/Models/Typhoon.xml</model>
+	</entity>
+	<entity>
+		<name>Tornado</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>2</domain>
+			<country>78</country>
+			<category>2</category>
+			<subcategory>2</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/eurofighter/Models/Typhoon.xml</model>
+	</entity>
+	<entity>
+		<name>F-14B</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>2</domain>
+			<country>225</country>
+			<category>1</category>
+			<subcategory>2</subcategory>
+			<specific>1</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b/Models/f-14b.xml</model>
+	</entity>
+	<entity>
+		<name>MiG 29 Fulcrum</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>2</domain>
+			<country>222</country>
+			<category>1</category>
+			<subcategory>2</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b_MiG29/Models/MiG29.xml</model>
+	</entity>
+	<entity>
+		<name>Su 25 Frogfoot</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>2</domain>
+			<country>222</country>
+			<category>2</category>
+			<subcategory>8</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b_SU25/Models/SU25.xml</model>
+	</entity>
+	<entity>
+		<name>Su-27 Flanker</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>2</domain>
+			<country>222</country>
+			<category>1</category>
+			<subcategory>3</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b_SU27/Models/SU27.xml</model>
+	</entity>
+	<entity>
+		<name>F-4 Phantom</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>2</domain>
+			<country>225</country>
+			<category>1</category>
+			<subcategory>4</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b_F4/Models/F4.xml</model>
+	</entity>
+	<entity>
+		<name>Airbus 320</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>2</domain>
+			<country>71</country>
+			<category>57</category>
+			<subcategory>1</subcategory>
+			<specific>1</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>AI/Aircraft/A320/A320-USAirways.xml</model>
+	</entity>
+	<entity>
+		<name>Boeing 747</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>2</domain>
+			<country>225</country>
+			<category>57</category>
+			<subcategory>1</subcategory>
+			<specific>1</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>AI/Aircraft/747-400/747-400.xml</model>
+	</entity>
+	<entity>
+		<name>Cessna 172</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>2</domain>
+			<country>225</country>
+			<category>40</category>
+			<subcategory>1</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/c172p/Models/c172p.xml</model>
+	</entity>
+	<entity>
+		<name>Aircraft</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>2</domain>
+			<country>0</country>
+			<category>0</category>
+			<subcategory>0</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/b1900d/Models/B1900D.xml</model>
+	</entity>
+	<entity>
+		<name>AA-10C Alamo</name>
+		<entitytype>
+			<kind>2</kind>
+			<domain>1</domain>
+			<country>222</country>
+			<category>1</category>
+			<subcategory>10</subcategory>
+			<specific>3</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b/Models/Stores/aim-9/aim-9.ac</model>
+	</entity>
+	<entity>
+		<name>AA-11 Archer</name>
+		<entitytype>
+			<kind>2</kind>
+			<domain>1</domain>
+			<country>222</country>
+			<category>1</category>
+			<subcategory>11</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b/Models/Stores/aim-9/aim-9.ac</model>
+	</entity>
+	<entity>
+		<name>AS-11 Kilter</name>
+		<entitytype>
+			<kind>2</kind>
+			<domain>4</domain>
+			<country>222</country>
+			<category>1</category>
+			<subcategory>4</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b/Models/Stores/aim-54/aim-54.ac</model>
+	</entity>
+	<entity>
+		<name>AS-14 Kedge</name>
+		<entitytype>
+			<kind>2</kind>
+			<domain>4</domain>
+			<country>222</country>
+			<category>1</category>
+			<subcategory>7</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b/Models/Stores/aim-54/aim-54.ac</model>
+	</entity>
+	<entity>
+		<name>AS-17 Krypton</name>
+		<entitytype>
+			<kind>2</kind>
+			<domain>6</domain>
+			<country>222</country>
+			<category>1</category>
+			<subcategory>26</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b/Models/Stores/aim-54/aim-54.ac</model>
+	</entity>
+	<entity>
+		<name>AS-20 Kayak</name>
+		<entitytype>
+			<kind>2</kind>
+			<domain>6</domain>
+			<country>222</country>
+			<category>1</category>
+			<subcategory>35</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b/Models/Stores/aim-54/aim-54.ac</model>
+	</entity>
+	<entity>
+		<name>Anti-Air</name>
+		<entitytype>
+			<kind>2</kind>
+			<domain>1</domain>
+			<country>0</country>
+			<category>0</category>
+			<subcategory>0</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b/Models/Stores/aim-9/aim-9.ac</model>
+	</entity>
+	<entity>
+		<name>Anti-Armor</name>
+		<entitytype>
+			<kind>2</kind>
+			<domain>2</domain>
+			<country>0</country>
+			<category>0</category>
+			<subcategory>0</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b/Models/Stores/aim-9/aim-9.ac</model>
+	</entity>
+	<entity>
+		<name>Anti-Guided Weapon</name>
+		<entitytype>
+			<kind>2</kind>
+			<domain>3</domain>
+			<country>0</country>
+			<category>0</category>
+			<subcategory>0</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b/Models/Stores/aim-9/aim-9.ac</model>
+	</entity>
+	<entity>
+		<name>Anti-Radar</name>
+		<entitytype>
+			<kind>2</kind>
+			<domain>4</domain>
+			<country>0</country>
+			<category>0</category>
+			<subcategory>0</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b/Models/Stores/aim-54/aim-54.ac</model>
+	</entity>
+	<entity>
+		<name>Anti-Satellite</name>
+		<entitytype>
+			<kind>2</kind>
+			<domain>5</domain>
+			<country>0</country>
+			<category>0</category>
+			<subcategory>0</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b/Models/Stores/aim-54/aim-54.ac</model>
+	</entity>
+	<entity>
+		<name>Anti-Ship</name>
+		<entitytype>
+			<kind>2</kind>
+			<domain>6</domain>
+			<country>0</country>
+			<category>0</category>
+			<subcategory>0</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/f-14b/Models/Stores/aim-54/aim-54.ac</model>
+	</entity>
+</EntityTable>

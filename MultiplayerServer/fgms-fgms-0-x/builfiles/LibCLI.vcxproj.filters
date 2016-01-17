@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e315c3a9-77b0-4046-ae30-f9703607c324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{cf32d31d-536a-4148-abe7-28ebfb6019e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\libcli\crypt-win.c" />
+    <ClCompile Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\libcli\libcli.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\libcli\debug.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\libcli\filter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\libcli\cli_client.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\libcli\cli_client.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\libcli\command.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\libcli\common.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\libcli\debug.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\libcli\filter.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\libcli\libcli.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\CMakeLists.txt" />
+  </ItemGroup>
+</Project>

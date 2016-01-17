@@ -1,0 +1,37 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+var ws;
+alert("Begin the begin");
+
+    alert("Starting execution");
+   ws = new WebSocket("ws://localhost:8081/../DisWebSocket");
+   alert("opened ws");
+
+   ws.onopen = function(event) 
+   {                  
+      alert("onOpen in ws");
+   }
+   ws.onmessage = function(event) 
+   {
+      var $textarea = $('#messages');
+      $textarea.val($textarea.val() + event.data + "\n");
+   }
+ws.onclose = function(event) 
+{  
+    alert("closing socket");
+}
+
+</script>
+        <div>Some content</div>
+    </body>
+</html>

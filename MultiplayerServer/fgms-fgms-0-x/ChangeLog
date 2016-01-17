@@ -1,0 +1,162 @@
+2013-04-11 13:38:43 geoff
+
+	* Thanks to the BIG effort by Pete Morgan, now able to generate the site 
+	  web pages using doxygen. There is a build_docs.sh to do this, and if 
+	  you have doxygen installed in windows, then a build_docs.bat. These 
+	  will generate the html pages in a new folder - build_docs
+	* Versioning is now external in a 'version' file, used both by cmake 
+	  and build_docs to set the version.
+	* Bumped version to AGE 27
+
+
+2012-11-08 17:16  geoff
+
+    * Small fix in CMakeLists.txt to allow -DCMAKE_BUILD_TYPE=DEBUG 
+      to function in unix. Seems CMake uses the set(CMAKE_DEBUG_POSTFIX d)
+      to append a 'd' to the libraries when this is on, but does NOT 
+      automatically then use that library name in the link, like it 
+      does in WIN32, so removed CMAKE_DEBUG_POSTFIX for other than WIN32.
+      The CMakeLists.txt also has an option -DENABLED_DEBUG_SYMBOLS:BOOL=TRUE
+      to add -g to the compile flags, to include DEBUG sysmbols in the 
+      Unix binaries.
+    * Bumped AGE to 26
+
+2012-10-16 00:00  geoff
+
+	* This file has NOT been kept up to date. Many months ago the 
+	  the build system was changed over to CMake - See CMakeLists.txt
+	- As part of this all the automake files have been removed, and 
+	  the INSTALL file is now way out of date.
+	- For quite some time now, a MSVC Windows version can be built
+	- pthreads has become a permanent prerequisite requirement
+	- Thanks to Hazuki Amamiya there have been LOTS of improvements 
+	  in the 'tracker' server, in contrib/fgtracker
+	- In the change over to CMake the 'make install' may be broken.
+	  CMake uses a 'default' install to /usr/local/bin instead of the 
+	  intended /usr/sbin, and the config file, fgms.conf has to be
+	  manually copied to /usr/etc/fgms.conf, but there is a command
+	  line override to place it anywhere.
+	- In general there have been a lot of bug fixes, too numerous to 
+	  mention. Read the gitorious commits logs for details.
+   
+2010-06-21 08:57  oliver
+
+	* Makefile.am, configure.ac, src/Makefile.am,
+	  src/server/fg_server.cxx, src/server/fg_server.hxx,
+	  src/server/fgms_example.conf, src/server/main.cxx:
+	- fixed "kill -HUP" bug
+
+2010-02-18 11:49  oliver
+
+	* configure.ac, src/server/fg_tracker.cxx, src/server/main.cxx:
+	- The configfile location now considers --sysconfdir of configure
+
+2010-02-15 09:04  oliver
+
+	* configure.ac, src/server/daemon.cxx, src/server/typcnvt.hxx,
+	  src/simgear/debug/logstream.cxx, src/simgear/debug/logstream.hxx:
+	- Bugfixes for newer gcc versions
+
+2008-10-02 12:39  oliver
+
+	* mpstatus/: config.pl, index.shtml, instructions.txt:
+	- added scripts for the mpstatus page
+
+2008-10-02 09:09  oliver
+
+	* tools/check_fgms.sh: - added check_fgms.sh
+
+2008-09-10 15:03  oliver
+
+	* src/server/: fg_server.cxx, fg_server.hxx, main.cxx:
+	- applied patch from Anders Gidenstam:	
+	  for the local cross feed thing:
+	  I find it useful for my setup (my 5000 and 5002 servers share
+	  what they receive) but do think a bit about whether it is
+	  useful in general or not.	 Everything received by 06 at port
+	  5000 is locally forwarded to 06 port 5002. This allows 06 to
+	  offer one untracked MP server (port 5000) and one tracked
+	  (port 5002) without increasing the	  external bandwidth use.
+	- avoiding multiple users with the same callsign
+
+2007-12-31 12:32  oliver
+
+	* src/server/Makefile.am: - fixed install-data-hook
+
+2007-12-27 08:56  oliver
+
+	* src/server/Makefile.am:
+	- Bugfix, fixes installation of the example
+	  configuration, also fixing it to work when DESTDIR is set.
+
+2007-08-21 09:25  oliver
+
+	* src/server/fg_server.cxx:
+	- Pigeon added an additional check so that observers will
+	  get packets   for everyone, skipping the out-of-reach check,
+	  which is useful for some	 cases.
+
+2007-06-21 11:04  oliver
+
+	* src/server/fg_server.cxx: - typo
+
+2007-06-15 22:57  oliver
+
+	* src/server/fg_server.cxx: - small cosmetics for telnet output
+
+2007-06-12 12:10  oliver
+
+	* AUTHORS, COPYING, ChangeLog, INSTALL, Makefile.am, NEWS, README,
+	  TODO, autogen.sh, configure.ac, src/.cvsignore, src/Makefile.am,
+	  src/flightgear/.cvsignore, src/flightgear/Makefile.am,
+	  src/flightgear/MultiPlayer/.cvsignore,
+	  src/flightgear/MultiPlayer/Makefile.am,
+	  src/flightgear/MultiPlayer/mpmessages.hxx,
+	  src/flightgear/MultiPlayer/tiny_xdr.cxx,
+	  src/flightgear/MultiPlayer/tiny_xdr.hxx, src/plib/.cvsignore,
+	  src/plib/Makefile.am, src/plib/netSocket.cxx,
+	  src/plib/netSocket.h, src/server/.cvsignore, src/server/FILES,
+	  src/server/Makefile.am, src/server/common.h,
+	  src/server/daemon.cxx, src/server/daemon.hxx,
+	  src/server/fg_config.cxx, src/server/fg_config.hxx,
+	  src/server/fg_geometry.cxx, src/server/fg_geometry.hxx,
+	  src/server/fg_server.cxx, src/server/fg_server.hxx,
+	  src/server/fg_tracker.cxx, src/server/fg_tracker.hxx,
+	  src/server/fgms_example.conf, src/server/main.cxx,
+	  src/server/typcnvt.hxx, src/simgear/.cvsignore,
+	  src/simgear/Makefile.am, src/simgear/compiler.h,
+	  src/simgear/debug/.cvsignore, src/simgear/debug/Makefile.am,
+	  src/simgear/debug/debug_types.h, src/simgear/debug/logstream.cxx,
+	  src/simgear/debug/logstream.hxx, src/simgear/math/.cvsignore,
+	  src/simgear/math/Makefile.am, src/simgear/math/SGMath.hxx,
+	  src/simgear/misc/.cvsignore, src/simgear/misc/Makefile.am,
+	  src/simgear/misc/stdint.hxx: Imported sources
+
+2007-06-12 12:10  oliver
+
+	* AUTHORS, COPYING, ChangeLog, INSTALL, Makefile.am, NEWS, README,
+	  TODO, autogen.sh, configure.ac, src/.cvsignore, src/Makefile.am,
+	  src/flightgear/.cvsignore, src/flightgear/Makefile.am,
+	  src/flightgear/MultiPlayer/.cvsignore,
+	  src/flightgear/MultiPlayer/Makefile.am,
+	  src/flightgear/MultiPlayer/mpmessages.hxx,
+	  src/flightgear/MultiPlayer/tiny_xdr.cxx,
+	  src/flightgear/MultiPlayer/tiny_xdr.hxx, src/plib/.cvsignore,
+	  src/plib/Makefile.am, src/plib/netSocket.cxx,
+	  src/plib/netSocket.h, src/server/.cvsignore, src/server/FILES,
+	  src/server/Makefile.am, src/server/common.h,
+	  src/server/daemon.cxx, src/server/daemon.hxx,
+	  src/server/fg_config.cxx, src/server/fg_config.hxx,
+	  src/server/fg_geometry.cxx, src/server/fg_geometry.hxx,
+	  src/server/fg_server.cxx, src/server/fg_server.hxx,
+	  src/server/fg_tracker.cxx, src/server/fg_tracker.hxx,
+	  src/server/fgms_example.conf, src/server/main.cxx,
+	  src/server/typcnvt.hxx, src/simgear/.cvsignore,
+	  src/simgear/Makefile.am, src/simgear/compiler.h,
+	  src/simgear/debug/.cvsignore, src/simgear/debug/Makefile.am,
+	  src/simgear/debug/debug_types.h, src/simgear/debug/logstream.cxx,
+	  src/simgear/debug/logstream.hxx, src/simgear/math/.cvsignore,
+	  src/simgear/math/Makefile.am, src/simgear/math/SGMath.hxx,
+	  src/simgear/misc/.cvsignore, src/simgear/misc/Makefile.am,
+	  src/simgear/misc/stdint.hxx: Initial revision
+

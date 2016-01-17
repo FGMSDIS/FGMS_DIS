@@ -1,0 +1,8 @@
+- rewrite logstream and make it thread-safe
+- implement server to server communication
+  special messages for server internal purposes
+- rate limit clients
+  clients sents X pakets per second, but we only forward Y pakets per
+  second
+- do not relay entries where flight_id is NULL, latitude is 0 
+  or longitude is 0

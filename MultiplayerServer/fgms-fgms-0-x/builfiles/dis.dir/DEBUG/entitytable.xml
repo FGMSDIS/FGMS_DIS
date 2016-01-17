@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityTable>
+	<entity>
+		<name>GE_F124</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>3</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/K130/Models/Braunschweig.xml</model>
+	</entity>
+	<entity>
+		<name>GE_F122</name>
+		<entitytype>
+			<kind>1</kind>
+			<domain>3</domain>
+			<country>78</country>
+			<category>6</category>
+			<subcategory>2</subcategory>
+			<specific>0</specific>
+			<extra>0</extra>
+		</entitytype>
+		<model>Aircraft/K130/Models/Braunschweig.xml</model>
+	</entity>
+</EntityTable>	

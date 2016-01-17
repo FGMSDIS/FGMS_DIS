@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D02FE908-2273-409B-91C3-2FB607C721D0}</ProjectGuid>
+    <RootNamespace>fgms</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fgms.dir\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fgms.dir\Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">fgms.dir\MinSizeRel\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">fgms.dir\RelWithDebInfo\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\flightgear\MultiPlayer;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\plib;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\simgear\debug;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\server;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\libcli;C:\Entwicklung\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName>
+      </DllDataFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\opendis\DIS;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\opendis;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\plib;C:\Entwicklung\pthreads\Pre-built.2\include;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;_DEBUG;SYSCONFDIR="/usr/etc";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION="0.11.6";CMAKE_INTDIR="Debug";EXPORT_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;_DEBUG;SYSCONFDIR="/usr/etc";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION="0.11.6";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\flightgear\MultiPlayer;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\plib;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\simgear\debug;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\server;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\libcli;C:\Entwicklung\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Debug\fg_serverd.lib;Debug\MultiPlayerd.lib;Debug\Plibd.lib;Debug\LibCLId.lib;Debug\SGdebugd.lib;winmm.lib;ws2_32.lib;Debug\pthreadVC2.lib;Debug\DIS_debug.lib</AdditionalDependencies>
+      <OutputFile>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\Debug\fgmsd.exe</OutputFile>
+      <Version>0.0</Version>
+      <AdditionalLibraryDirectories>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\Debug/fgmsd.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\Debug\fgmsd.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\flightgear\MultiPlayer;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\plib;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\simgear\debug;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\server;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\libcli;C:\Entwicklung\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName>
+      </DllDataFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\opendis\DIS;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\opendis;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\dr;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\flightgear;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\libcli;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\plib;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\pugixml;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\simgear\debug;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\server;C:\Entwicklung\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;NDEBUG;SYSCONFDIR="/usr/etc";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION="0.11.6";CMAKE_INTDIR="Release";EXPORT_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;NDEBUG;SYSCONFDIR="/usr/etc";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION="0.11.6";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\flightgear\MultiPlayer;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\plib;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\simgear\debug;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\server;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\libcli;C:\Entwicklung\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Release\fg_server.lib;Release\MultiPlayer.lib;Release\Plib.lib;Release\LibCLI.lib;Release\SGdebug.lib;winmm.lib;ws2_32.lib;Release\pthreadVC2.lib;Release\DIS.lib</AdditionalDependencies>
+      <OutputFile>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\Release\fgms.exe</OutputFile>
+      <Version>0.0</Version>
+      <AdditionalLibraryDirectories>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <ProgramDatabaseFile>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\Release/fgms.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\Release\fgms.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\flightgear\MultiPlayer;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\plib;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\simgear\debug;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\server;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\libcli;C:\Entwicklung\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName>
+      </DllDataFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\flightgear\MultiPlayer;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\plib;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\simgear\debug;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\server;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\libcli;C:\Entwicklung\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;NDEBUG;SYSCONFDIR="/usr/etc";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION="0.11.6";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;NDEBUG;SYSCONFDIR="/usr/etc";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION="0.11.6";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\flightgear\MultiPlayer;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\plib;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\simgear\debug;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\server;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\libcli;C:\Entwicklung\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;MinSizeRel\fg_server.lib;MinSizeRel\MultiPlayer.lib;MinSizeRel\Plib.lib;MinSizeRel\LibCLI.lib;MinSizeRel\SGdebug.lib;winmm.lib;ws2_32.lib;C:\Entwicklung\pthreads\Pre-built.2\lib\x86\pthreadVC2.lib</AdditionalDependencies>
+      <OutputFile>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\MinSizeRel\fgms.exe</OutputFile>
+      <Version>0.0</Version>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\MinSizeRel/fgms.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\MinSizeRel\fgms.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\flightgear\MultiPlayer;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\plib;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\simgear\debug;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\server;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\libcli;C:\Entwicklung\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName>
+      </DllDataFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\flightgear\MultiPlayer;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\plib;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\simgear\debug;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\server;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\libcli;C:\Entwicklung\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;NDEBUG;SYSCONFDIR="/usr/etc";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION="0.11.6";CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;NDEBUG;SYSCONFDIR="/usr/etc";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION="0.11.6";CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\flightgear\MultiPlayer;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\plib;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\simgear\debug;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\server;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\src\libcli;C:\Entwicklung\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;RelWithDebInfo\fg_server.lib;RelWithDebInfo\MultiPlayer.lib;RelWithDebInfo\Plib.lib;RelWithDebInfo\LibCLI.lib;RelWithDebInfo\SGdebug.lib;winmm.lib;ws2_32.lib;C:\Entwicklung\pthreads\Pre-built.2\lib\x86\pthreadVC2.lib</AdditionalDependencies>
+      <OutputFile>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\RelWithDebInfo\fgms.exe</OutputFile>
+      <Version>0.0</Version>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\RelWithDebInfo/fgms.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\RelWithDebInfo\fgms.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="fg_server.vcxproj">
+      <Project>{8a6870e6-5715-46ec-98bd-8741f0c85aec}</Project>
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="LibCLI.vcxproj">
+      <Project>{e2786c36-ff4b-40f0-9d35-cd20f6bdcf28}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="MultiPlayer.vcxproj">
+      <Project>{6ad1bc86-4b71-4adf-8829-c26bc228a34b}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Plib.vcxproj">
+      <Project>{93a98a03-e5c8-4351-8a98-3ebb3dfd39a9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="SGdebug.vcxproj">
+      <Project>{3b8a1d83-5f9e-40fe-8786-89592a994549}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="ZERO_CHECK.vcxproj">
+      <Project>{aab3118a-0ca2-4298-bee6-e47cdec49448}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\main.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Entwicklung/Flightgear/MultiplayerServer/fgms-fgms-0-x/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Entwicklung/Flightgear/MultiplayerServer/fgms-fgms-0-x -BC:/Entwicklung/Flightgear/MultiplayerServer/fgms-fgms-0-x/builfiles --check-stamp-file C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\generate.stamp
+if errorlevel 1 goto :VCReportError
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\CMakeLists.txt;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\config.h.msvc;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Entwicklung/Flightgear/MultiplayerServer/fgms-fgms-0-x/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Entwicklung/Flightgear/MultiplayerServer/fgms-fgms-0-x -BC:/Entwicklung/Flightgear/MultiplayerServer/fgms-fgms-0-x/builfiles --check-stamp-file C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\generate.stamp
+if errorlevel 1 goto :VCReportError
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\CMakeLists.txt;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\config.h.msvc;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Entwicklung/Flightgear/MultiplayerServer/fgms-fgms-0-x/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Entwicklung/Flightgear/MultiplayerServer/fgms-fgms-0-x -BC:/Entwicklung/Flightgear/MultiplayerServer/fgms-fgms-0-x/builfiles --check-stamp-file C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\generate.stamp
+if errorlevel 1 goto :VCReportError
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\CMakeLists.txt;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\config.h.msvc;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Entwicklung/Flightgear/MultiplayerServer/fgms-fgms-0-x/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Entwicklung/Flightgear/MultiplayerServer/fgms-fgms-0-x -BC:/Entwicklung/Flightgear/MultiplayerServer/fgms-fgms-0-x/builfiles --check-stamp-file C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\generate.stamp
+if errorlevel 1 goto :VCReportError
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\CMakeLists.txt;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\config.h.msvc;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Entwicklung\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

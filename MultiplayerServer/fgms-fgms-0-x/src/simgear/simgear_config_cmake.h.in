@@ -1,0 +1,20 @@
+
+#cmakedefine HAVE_SYS_TIME_H
+#cmakedefine HAVE_SYS_TIMEB_H
+#cmakedefine HAVE_UNISTD_H
+
+
+#cmakedefine HAVE_GETTIMEOFDAY
+#cmakedefine HAVE_GETLOCALTIME
+#cmakedefine HAVE_FTIME
+#cmakedefine HAVE_RINT
+#cmakedefine HAVE_TIMEGM
+#cmakedefine HAVE_ISNAN
+#cmakedefine HAVE_STD_ISNAN
+#cmakedefine HAVE_WINDOWS_H
+#cmakedefine HAVE_MKDTEMP
+
+#cmakedefine GCC_ATOMIC_BUILTINS_FOUND
+
+#cmakedefine SYSTEM_EXPAT
+#cmakedefine ENABLE_SOUND

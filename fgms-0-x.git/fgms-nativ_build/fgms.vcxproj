@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{13612955-054F-4CF1-9249-FE4B7EE25A8C}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>fgms</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fgms.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fgmsd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fgms.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fgms</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">fgms.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">fgms</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">fgms.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">fgms</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Entwicklung\fgms-0-x.git\fgms-nativ_build;C:\Entwicklung\fgms-0-x.git\src;C:\Entwicklung\fgms-0-x.git\src\flightgear\MultiPlayer;C:\Entwicklung\fgms-0-x.git\src\plib;C:\Entwicklung\fgms-0-x.git\src\simgear\debug;C:\Entwicklung\fgms-0-x.git\src\server;C:\Entwicklung\fgms-0-x.git\src\libcli;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4146;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;_DEBUG;SYSCONFDIR="/usr/etc";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION="0.11.8";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;_DEBUG;SYSCONFDIR=\"/usr/etc\";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION=\"0.11.8\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Entwicklung\fgms-0-x.git\fgms-nativ_build;C:\Entwicklung\fgms-0-x.git\src;C:\Entwicklung\fgms-0-x.git\src\flightgear\MultiPlayer;C:\Entwicklung\fgms-0-x.git\src\plib;C:\Entwicklung\fgms-0-x.git\src\simgear\debug;C:\Entwicklung\fgms-0-x.git\src\server;C:\Entwicklung\fgms-0-x.git\src\libcli;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Entwicklung\fgms-0-x.git\fgms-nativ_build;C:\Entwicklung\fgms-0-x.git\src;C:\Entwicklung\fgms-0-x.git\src\flightgear\MultiPlayer;C:\Entwicklung\fgms-0-x.git\src\plib;C:\Entwicklung\fgms-0-x.git\src\simgear\debug;C:\Entwicklung\fgms-0-x.git\src\server;C:\Entwicklung\fgms-0-x.git\src\libcli;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Debug\fg_serverd.lib;Debug\MultiPlayerd.lib;Debug\Plibd.lib;Debug\LibCLId.lib;Debug\SGdebugd.lib;winmm.lib;ws2_32.lib;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\lib\x86\pthreadVC2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/Entwicklung/fgms-0-x.git/fgms-nativ_build/Debug/fgmsd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Entwicklung/fgms-0-x.git/fgms-nativ_build/Debug/fgmsd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Entwicklung\fgms-0-x.git\fgms-nativ_build;C:\Entwicklung\fgms-0-x.git\src;C:\Entwicklung\fgms-0-x.git\src\flightgear\MultiPlayer;C:\Entwicklung\fgms-0-x.git\src\plib;C:\Entwicklung\fgms-0-x.git\src\simgear\debug;C:\Entwicklung\fgms-0-x.git\src\server;C:\Entwicklung\fgms-0-x.git\src\libcli;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4146;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;NDEBUG;SYSCONFDIR="/usr/etc";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION="0.11.8";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;NDEBUG;SYSCONFDIR=\"/usr/etc\";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION=\"0.11.8\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Entwicklung\fgms-0-x.git\fgms-nativ_build;C:\Entwicklung\fgms-0-x.git\src;C:\Entwicklung\fgms-0-x.git\src\flightgear\MultiPlayer;C:\Entwicklung\fgms-0-x.git\src\plib;C:\Entwicklung\fgms-0-x.git\src\simgear\debug;C:\Entwicklung\fgms-0-x.git\src\server;C:\Entwicklung\fgms-0-x.git\src\libcli;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Entwicklung\fgms-0-x.git\fgms-nativ_build;C:\Entwicklung\fgms-0-x.git\src;C:\Entwicklung\fgms-0-x.git\src\flightgear\MultiPlayer;C:\Entwicklung\fgms-0-x.git\src\plib;C:\Entwicklung\fgms-0-x.git\src\simgear\debug;C:\Entwicklung\fgms-0-x.git\src\server;C:\Entwicklung\fgms-0-x.git\src\libcli;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Release\fg_server.lib;Release\MultiPlayer.lib;Release\Plib.lib;Release\LibCLI.lib;Release\SGdebug.lib;winmm.lib;ws2_32.lib;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\lib\x86\pthreadVC2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/Entwicklung/fgms-0-x.git/fgms-nativ_build/Release/fgms.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Entwicklung/fgms-0-x.git/fgms-nativ_build/Release/fgms.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Entwicklung\fgms-0-x.git\fgms-nativ_build;C:\Entwicklung\fgms-0-x.git\src;C:\Entwicklung\fgms-0-x.git\src\flightgear\MultiPlayer;C:\Entwicklung\fgms-0-x.git\src\plib;C:\Entwicklung\fgms-0-x.git\src\simgear\debug;C:\Entwicklung\fgms-0-x.git\src\server;C:\Entwicklung\fgms-0-x.git\src\libcli;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4146;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;NDEBUG;SYSCONFDIR="/usr/etc";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION="0.11.8";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;NDEBUG;SYSCONFDIR=\"/usr/etc\";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION=\"0.11.8\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Entwicklung\fgms-0-x.git\fgms-nativ_build;C:\Entwicklung\fgms-0-x.git\src;C:\Entwicklung\fgms-0-x.git\src\flightgear\MultiPlayer;C:\Entwicklung\fgms-0-x.git\src\plib;C:\Entwicklung\fgms-0-x.git\src\simgear\debug;C:\Entwicklung\fgms-0-x.git\src\server;C:\Entwicklung\fgms-0-x.git\src\libcli;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Entwicklung\fgms-0-x.git\fgms-nativ_build;C:\Entwicklung\fgms-0-x.git\src;C:\Entwicklung\fgms-0-x.git\src\flightgear\MultiPlayer;C:\Entwicklung\fgms-0-x.git\src\plib;C:\Entwicklung\fgms-0-x.git\src\simgear\debug;C:\Entwicklung\fgms-0-x.git\src\server;C:\Entwicklung\fgms-0-x.git\src\libcli;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;MinSizeRel\fg_server.lib;MinSizeRel\MultiPlayer.lib;MinSizeRel\Plib.lib;MinSizeRel\LibCLI.lib;MinSizeRel\SGdebug.lib;winmm.lib;ws2_32.lib;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\lib\x86\pthreadVC2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/Entwicklung/fgms-0-x.git/fgms-nativ_build/MinSizeRel/fgms.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Entwicklung/fgms-0-x.git/fgms-nativ_build/MinSizeRel/fgms.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Entwicklung\fgms-0-x.git\fgms-nativ_build;C:\Entwicklung\fgms-0-x.git\src;C:\Entwicklung\fgms-0-x.git\src\flightgear\MultiPlayer;C:\Entwicklung\fgms-0-x.git\src\plib;C:\Entwicklung\fgms-0-x.git\src\simgear\debug;C:\Entwicklung\fgms-0-x.git\src\server;C:\Entwicklung\fgms-0-x.git\src\libcli;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4146;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;NDEBUG;SYSCONFDIR="/usr/etc";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION="0.11.8";CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;NDEBUG;SYSCONFDIR=\"/usr/etc\";UL_MSVC;OPENALSDK;HAVE_CONFIG_H;FREEGLUT_LIB_PRAGMAS;UL_WIN32;_CRT_SECURE_NO_DEPRECATE;FREEGLUT_STATIC;VERSION=\"0.11.8\";CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Entwicklung\fgms-0-x.git\fgms-nativ_build;C:\Entwicklung\fgms-0-x.git\src;C:\Entwicklung\fgms-0-x.git\src\flightgear\MultiPlayer;C:\Entwicklung\fgms-0-x.git\src\plib;C:\Entwicklung\fgms-0-x.git\src\simgear\debug;C:\Entwicklung\fgms-0-x.git\src\server;C:\Entwicklung\fgms-0-x.git\src\libcli;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Entwicklung\fgms-0-x.git\fgms-nativ_build;C:\Entwicklung\fgms-0-x.git\src;C:\Entwicklung\fgms-0-x.git\src\flightgear\MultiPlayer;C:\Entwicklung\fgms-0-x.git\src\plib;C:\Entwicklung\fgms-0-x.git\src\simgear\debug;C:\Entwicklung\fgms-0-x.git\src\server;C:\Entwicklung\fgms-0-x.git\src\libcli;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;RelWithDebInfo\fg_server.lib;RelWithDebInfo\MultiPlayer.lib;RelWithDebInfo\Plib.lib;RelWithDebInfo\LibCLI.lib;RelWithDebInfo\SGdebug.lib;winmm.lib;ws2_32.lib;C:\Entwicklung\pthreads-w32-2-9-1-release\Pre-built.2\lib\x86\pthreadVC2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/Entwicklung/fgms-0-x.git/fgms-nativ_build/RelWithDebInfo/fgms.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Entwicklung/fgms-0-x.git/fgms-nativ_build/RelWithDebInfo/fgms.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Entwicklung/fgms-0-x.git/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Entwicklung/fgms-0-x.git -BC:/Entwicklung/fgms-0-x.git/fgms-nativ_build --check-stamp-file C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Entwicklung/fgms-0-x.git/CMakeLists.txt;C:\Entwicklung\fgms-0-x.git\CMakeLists.txt;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Entwicklung\fgms-0-x.git\config.h.msvc;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Entwicklung\fgms-0-x.git\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Entwicklung/fgms-0-x.git/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Entwicklung/fgms-0-x.git -BC:/Entwicklung/fgms-0-x.git/fgms-nativ_build --check-stamp-file C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Entwicklung/fgms-0-x.git/CMakeLists.txt;C:\Entwicklung\fgms-0-x.git\CMakeLists.txt;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Entwicklung\fgms-0-x.git\config.h.msvc;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Entwicklung\fgms-0-x.git\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Entwicklung/fgms-0-x.git/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Entwicklung/fgms-0-x.git -BC:/Entwicklung/fgms-0-x.git/fgms-nativ_build --check-stamp-file C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Entwicklung/fgms-0-x.git/CMakeLists.txt;C:\Entwicklung\fgms-0-x.git\CMakeLists.txt;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Entwicklung\fgms-0-x.git\config.h.msvc;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Entwicklung\fgms-0-x.git\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Entwicklung/fgms-0-x.git/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Entwicklung/fgms-0-x.git -BC:/Entwicklung/fgms-0-x.git/fgms-nativ_build --check-stamp-file C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Entwicklung/fgms-0-x.git/CMakeLists.txt;C:\Entwicklung\fgms-0-x.git\CMakeLists.txt;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Entwicklung\fgms-0-x.git\config.h.msvc;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Entwicklung\fgms-0-x.git\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Entwicklung\fgms-0-x.git\fgms-nativ_build\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\server\main.cxx"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Entwicklung/fgms-0-x.git/fgms-nativ_build/LibCLI.vcxproj">
+      <Project>4F338FB7-AD06-443E-A23E-26F1923767C5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Entwicklung/fgms-0-x.git/fgms-nativ_build/MultiPlayer.vcxproj">
+      <Project>DEAF8808-F6C7-4D56-AD91-76F918FEDBB7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Entwicklung/fgms-0-x.git/fgms-nativ_build/Plib.vcxproj">
+      <Project>66AACA9C-7B27-4F17-A796-02AFE87A011A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Entwicklung/fgms-0-x.git/fgms-nativ_build/SGdebug.vcxproj">
+      <Project>F872D70F-A8B7-4863-BBEF-B8156653D9C2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Entwicklung/fgms-0-x.git/fgms-nativ_build/ZERO_CHECK.vcxproj">
+      <Project>7DD57301-CB5C-4243-B72A-E59AD1F580DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Entwicklung/fgms-0-x.git/fgms-nativ_build/fg_server.vcxproj">
+      <Project>6E10C201-32BE-4040-88B2-E421EDF23FD0</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

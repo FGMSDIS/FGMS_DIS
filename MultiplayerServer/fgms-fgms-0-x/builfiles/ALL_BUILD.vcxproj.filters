@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{c4da966a-fe33-4e2a-a899-27fa50819e5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Flightgear\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\Flightgear\MultiplayerServer\fgms-fgms-0-x\builfiles\CMakeFiles\ALL_BUILD.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Flightgear\MultiplayerServer\fgms-fgms-0-x\CMakeLists.txt" />
+  </ItemGroup>
+</Project>

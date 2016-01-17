@@ -1,0 +1,18 @@
+General Installation
+====================
+
+- Create an out of source build directory, say build-fgms, and in that 
+  directory run 'cmake [OPTIONS] /path/to/fgms/source'.
+  Read the source CMakeLists.txt for available options.
+
+- run "make"
+
+- run "make install"
+
+- copy the file "fgms_example.conf" to "fgms.conf", edit this file to your
+  needs and copy it to your "sysconfdir"
+
+- run "fgms --help" for command line help
+
+- run "fgms"
+

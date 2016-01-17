@@ -1,0 +1,8 @@
+C:/Entwicklung/MultiplayerServer/fgms-fgms-0-x/builfiles/CMakeFiles/ALL_BUILD.dir
+C:/Entwicklung/MultiplayerServer/fgms-fgms-0-x/builfiles/CMakeFiles/LibCLI.dir
+C:/Entwicklung/MultiplayerServer/fgms-fgms-0-x/builfiles/CMakeFiles/MultiPlayer.dir
+C:/Entwicklung/MultiplayerServer/fgms-fgms-0-x/builfiles/CMakeFiles/Plib.dir
+C:/Entwicklung/MultiplayerServer/fgms-fgms-0-x/builfiles/CMakeFiles/SGdebug.dir
+C:/Entwicklung/MultiplayerServer/fgms-fgms-0-x/builfiles/CMakeFiles/ZERO_CHECK.dir
+C:/Entwicklung/MultiplayerServer/fgms-fgms-0-x/builfiles/CMakeFiles/fg_server.dir
+C:/Entwicklung/MultiplayerServer/fgms-fgms-0-x/builfiles/CMakeFiles/fgms.dir

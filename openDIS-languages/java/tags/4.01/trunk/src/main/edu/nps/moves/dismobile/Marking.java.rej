@@ -1,0 +1,19 @@
+***************
+*** 46,55 ****
+  public short getCharacterSet()
+  { return characterSet; 
+  }
+- 
+- public void setCharacters(byte[] pCharacters)
+- { characters = pCharacters;
+- }
+      
+      /**
+       * Ensure what is set does not go over 11 characters -- post-processing patch
+--- 46,51 ----
+  public short getCharacterSet()
+  { return characterSet; 
+  }
+      
+      /**
+       * Ensure what is set does not go over 11 characters -- post-processing patch

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4ef8b1bb-0708-41e4-80f4-b5b9f7263a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{dd3e2635-5399-4e90-a6f1-ba8279bc67cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pugi">
+      <UniqueIdentifier>{9c2b3e69-4357-434f-9c77-2de2583a647c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\server\CallSignManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\server\DISBroker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\server\EntityTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\server\Quat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pugixml\pugixml.cpp">
+      <Filter>pugi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\fg_util.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\daemon.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\fg_cli.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\fg_config.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\fg_geometry.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\fg_list.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\fg_server.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\server\dr.cpp" />
+    <ClCompile Include="..\src\server\DISMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\server\CallSignManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\server\DISBroker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\server\EntityTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\server\fg_geometry.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\server\Quat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pugixml\pugiconfig.hpp">
+      <Filter>pugi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pugixml\pugixml.hpp">
+      <Filter>pugi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\daemon.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\fg_cli.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\fg_common.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\fg_config.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\fg_list.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\fg_server.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\src\server\fg_util.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\server\dr.h" />
+    <ClInclude Include="..\src\server\DISMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\MultiplayerServer\fgms-fgms-0-x\CMakeLists.txt" />
+  </ItemGroup>
+</Project>
